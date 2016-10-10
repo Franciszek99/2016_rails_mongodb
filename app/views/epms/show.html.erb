@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @epm.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @epm.age %>
+</p>
+
+<%= link_to 'Edit', edit_epm_path(@epm) %> |
+<%= link_to 'Back', epms_path %>
